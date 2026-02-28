@@ -9,7 +9,7 @@
 
 .container {
     max-width: 100%;
-    width: 1440px;
+    width: 1170px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -27,8 +27,7 @@ header {
         .navbar {
             display: flex;
             align-items: center;
-            justify-content: space-between;
-
+            
             .navbar_left {
                 display: flex;
                 align-items: center;
@@ -50,6 +49,9 @@ header {
                 }
             }
 
+            img{
+                width: 30%;
+            }
             .navbar_right {
                 display: flex;
                 align-items: center;
@@ -77,7 +79,6 @@ header {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    font-family: "Roboto" sans-serif;
                     font-weight: 700;
                     font-size: 13px;
                     line-height: 35px;
@@ -99,16 +100,17 @@ header {
 main {
     .section1 {
         background-image: url(img/Rectangle.png);
-        margin-top: 100px;
-        height: 600px;
+        padding-top: 100px;
+        height: 605px;
         background-repeat: no-repeat;
-        display: flex;
-        align-items: center;
-        width: 100%;
-
+        background-size: cover;
+        background-position: center;
         .container {
             .section_text {
-                width: 300px;
+                width: 250px;
+               margin-left: 150px;
+                margin-top: 160px;
+               
 
                 p {
                     font-family: "Roboto", sans-serif;
@@ -117,6 +119,7 @@ main {
                     line-height: 16px;
                     letter-spacing: 0%;
                     color: #35312E;
+                    margin-bottom: 8px;
                 }
 
                 h1 {
@@ -163,11 +166,15 @@ main {
         .container {
             .section2_rasm {
                 text-align: center;
+                padding-bottom: 40px;
 
                 .r {
                     padding-top: 45px;
                     padding-bottom: 24px;
                 }
+               img{
+                width: 70%;
+               }
             }
         }
     }
@@ -184,8 +191,7 @@ main {
                     padding-top: 100px;
                     font-family: "Roboto", sans-serif;
                     font-weight: 700;
-                    font-size: 41px;
-                    letter-spacing: 1.25px;
+                    font-size: 40px;
                     color: #35312E;
                 }
 
@@ -283,6 +289,833 @@ main {
                         height: 30px;
                         border-radius: 15px;
                         background: #D3C2CA;
+                    }
+                }
+                
+            }
+            .section_rasm{
+                    img{
+                        width: 100%;
+                        padding-bottom: 50px;
+                    }
+                }
+        }
+    }
+
+    .section5 {
+        .container {
+            .from {
+                .from_title {
+                    width: 430px;
+                    margin: 0 auto;
+                    margin-top: 80px;
+
+                    h1 {
+                        font-family: "Roboto", sans-serif;
+                        font-weight: 700;
+                        font-size: 33px;
+                        line-height: 55.2px;
+                        letter-spacing: 1.2px;
+                        color: #35312E;
+                    }
+
+                    p {
+                        font-family: "Roboto", sans-serif;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28.98px;
+                        letter-spacing: 0%;
+                        color: #4F463F;
+                    }
+
+                }
+
+                .cards {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .card {
+                        width: 250px;
+                        text-align: center;
+                        margin-top: 80px;
+
+                        .dum {
+                            padding-top: 29px;
+                            display: flex;
+                            align-items: center;
+                            gap: 20px;
+                            justify-content: center;
+
+                            .card_dum1 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #E09D81;
+                            }
+
+                            .card_dum2 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #CDC7B3;
+                            }
+
+                            .card_dum3 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #595752;
+                            }
+                        }
+
+                        h3 {
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 23.8px;
+                            letter-spacing: 0.5px;
+                            color: #35312E;
+                            padding-top: 15px;
+                        }
+
+                        h4 {
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 21px;
+                            letter-spacing: 0.1px;
+                            color: #6E635A;
+                        }
+
+                        p {
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 400;
+                            font-size: 11px;
+                            line-height: 19.6px;
+                            letter-spacing: 0.2px;
+                            color: #6E635A;
+                        }
+
+                        .card_rasm {
+                            
+                            height: 229px;
+                            border-radius: 50%;
+                            background: #F7F3EB;
+                            display: flex;
+                            justify-content: center;
+
+                            img {
+                                padding-bottom: 30px;
+                            }
+                        }
+                    }
+
+                    .card2 {
+                        width: 250px;
+                        text-align: center;
+                        margin-top: 80px;
+
+                        .dum {
+                            padding-top: 29px;
+                            display: flex;
+                            align-items: center;
+                            gap: 20px;
+                            justify-content: center;
+                            .card_dum1 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #CCBD9E;
+                            }
+
+                            .card_dum2 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #B55900;
+                            }
+
+                            .card_dum3 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #595752;
+                            }
+
+                            .card_dum4 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                border: 1px solid #6E635A4D;
+                                background: #FFFFFF;
+                            }
+                        }
+
+                        h3 {
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 23.8px;
+                            letter-spacing: 0.5px;
+                            color: #35312E;
+                            padding-top: 15px;
+                        }
+
+                        h4 {
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 21px;
+                            letter-spacing: 0.1px;
+                            color: #6E635A;
+                        }
+
+                        p {
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 400;
+                            font-size: 11px;
+                            line-height: 19.6px;
+                            letter-spacing: 0.2px;
+                            color: #6E635A;
+                        }
+
+                        .card_rasm {
+                            height: 229px;
+                            border-radius: 50%;
+                            background: #F7F3EB;
+                            display: flex;
+                            justify-content: center;
+
+                            img {
+                                padding-bottom: 30px;
+                            }
+                        }
+                    }
+
+                    .card3 {
+                        width: 250px;
+                        text-align: center;
+                        margin-top: 80px;
+
+                        .dum {
+                            padding-top: 29px;
+                            display: flex;
+                            align-items: center;
+                            gap: 20px;
+                            justify-content: center;
+                            .card_dum1 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #E09D81;
+                            }
+
+                            .card_dum2 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #CDC7B3;
+                            }
+
+                            .card_dum3 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #595752;
+                            }
+                        }
+
+                        h3 {
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 23.8px;
+                            letter-spacing: 0.5px;
+                            color: #35312E;
+                            padding-top: 15px;
+                        }
+
+                        h4 {
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 21px;
+                            letter-spacing: 0.1px;
+                            color: #6E635A;
+                        }
+
+                        p {
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 400;
+                            font-size: 11px;
+                            line-height: 19.6px;
+                            letter-spacing: 0.2px;
+                            color: #6E635A;
+                        }
+
+                        .card_rasm {
+                            height: 229px;
+                            border-radius: 50%;
+                            background: #F7F3EB;
+                            display: flex;
+                            justify-content: center;
+
+                            img {
+                                padding-bottom: 30px;
+                            }
+                        }
+                    }
+
+                    .card4 {
+                        text-align: center;
+                        margin-top: 80px;
+
+                        .dum {
+                            padding-top: 29px;
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                           
+                            .card_dum1 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #E09D81;
+                            }
+
+                            .card_dum2 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #748EA1;
+                            }
+
+                            .card_dum3 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #595752;
+                            }
+
+                            .card_dum4 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #7D836E;
+                            }
+
+                            .card_dum5 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #C33636;
+                            }
+
+                            .card_dum6 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #CDC7B3;
+                            }
+
+                            .card_dum7 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #595752;
+                            }
+
+                            .card_dum8 {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 15px;
+                                background: #D3C2CA;
+                            }
+                        }
+
+                        h3 {
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 23.8px;
+                            letter-spacing: 0.5px;
+                            color: #35312E;
+                            padding-top: 15px;
+                        }
+
+                        h4 {
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 21px;
+                            letter-spacing: 0.1px;
+                            color: #6E635A;
+                        }
+
+                        p {
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 400;
+                            font-size: 11px;
+                            line-height: 19.6px;
+                            color: #6E635A;
+                            width: 150px;
+                            margin: 0 auto;
+                            
+                        }
+
+                        .card_rasm {
+                            width: 256px;
+                            height: 229px;
+                            border-radius: 50%;
+                            background: #F7F3EB;
+                           
+
+                            img {
+                                width: 80%;
+                                padding-top: 65px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section6 {
+        margin-top: 40px;
+
+        .container {
+            .section_cards {
+                display: flex;
+                align-items: center;
+
+                img{
+                    width: 35%;
+                }
+                .section_centr {
+                    background: #F5F1E9;
+                   height: 400px;
+                    text-align: center;
+                   
+
+                    p {
+                        font-family: "Roboto", sans-serif;
+                        font-weight: 400;
+                        font-size: 11px;
+                        line-height: 20.4px;
+                        letter-spacing: 2px;
+                        color: #35312E;
+                        padding-top: 60px;
+                    }
+
+                    h1 {
+                        font-family: "Roboto", sans-serif;
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 46.08px;
+                        letter-spacing: 1px;
+                        color: #35312E;
+                        padding-top: 30px;
+                    }
+
+                    button {
+                        width: 206px;
+                        height: 54px;
+                        margin-top: 40px;
+                        font-family: "Roboto", sans-serif;
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 12px;
+                        letter-spacing: 0.5px;
+                        border-radius: 4px;
+                        color: #4F463F;
+                        border: 1px solid #AAA0984A;
+                        transition: all 1s ease-in-out;
+                        margin-bottom: 30px;
+                    }
+
+                    button:hover {
+                        background: #D37657;
+                        border: none;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background: #6C674D;
+
+    .container {
+        .footer_top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px;
+            padding-bottom: 50px;
+
+            .footer_left {
+                h2 {
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 700;
+                    font-size: 23px;
+                    line-height: 57.8px;
+                    letter-spacing: 0.7px;
+                    color: #FFFFFF;
+                }
+
+                p {
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    color: #FFFFFF;
+                    padding-bottom: 50px;
+                }
+
+                form {
+                    width: 447px;
+                    background: #FCFAF6;
+
+                    input {
+                        width: 340px;
+                        border: none;
+                        height: 55px;
+                        padding: 5px 0;
+                        padding-left: 20px;
+                        font-family: "Roboto", sans-serif;
+                        font-weight: 700;
+                        font-size: 13px;
+                        line-height: 57.8px;
+                        letter-spacing: 0.7px;
+                        color: #00000080;
+                    }
+
+                    button {
+                        width: 100px;
+                        border: none;
+                        height: 60px;
+                        font-family: "Roboto", sans-serif;
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #4F463F;
+                    }
+                }
+            }
+
+            .footer_right {
+                display: flex;
+                margin-top: 50px;
+                gap: 50px;
+
+                ul {
+                    li {
+                        h5 {
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 700;
+                            font-size: 12px;
+                            line-height: 20.4px;
+                            letter-spacing: 0.5px;
+                            color: #F5F1E9;
+                            padding-bottom: 10px;
+                        }
+
+                        font-family: "Roboto",
+                        sans-serif;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 30.6px;
+                        letter-spacing: 0%;
+                        color: #F5F1E999;
+                    }
+
+                    .bayro {
+                        a{
+                            padding-right: 24px;
+                        }
+                        p {
+                            font-family: "Roboto",sans-serif;
+                            font-weight: 700;
+                            font-size: 12px;
+                            line-height: 20.4px;
+                            letter-spacing: 0.5px;
+                            color: #F5F1E9;
+                            margin-top: 50px;
+                            padding-bottom: 10px;
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+
+@media(max-width:1168px){
+    main{
+        .section1{
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            
+            .container{
+
+            }
+        }
+    }
+}
+
+@media(max-width:1095px){
+    main{
+        .section1{
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            
+            .container{
+
+            }
+        }
+        .section3{
+            .container{
+                .section3_cards{
+                    flex-direction: column;
+                }
+            }
+        }
+
+        .section5{
+            .container{
+                .from{
+                    .cards{
+                        flex-wrap: wrap-reverse;
+                    }
+                }
+            }
+        }
+        .section6{
+            .container{
+                .section_cards{
+                   flex-direction: column;
+                   margin-top: 25px;
+                   gap: 40px;
+                   padding-bottom: 30px;
+                   img{
+                    width: 50%;
+                   }
+                   .section_centr{
+                    width: 50%;
+                   }
+                }
+            }
+        }
+    }
+    footer{
+        .container{
+            .footer_top{
+                padding-top: 50px;
+                flex-direction: column;
+                
+            }
+        }
+    }
+}
+
+@media(max-width:1095px){
+    main{
+        .section1{
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            
+            .container{
+
+            }
+        }
+        .section3{
+            .container{
+                .section3_cards{
+                    flex-direction: column;
+                    .card_title{
+                        font-size: 110%;
+                    }
+                    .card_text{
+                       width: 350px;
+                    }
+                }
+            }
+        }
+
+        .section5{
+            .container{
+                .from{
+                    .cards{
+                        flex-wrap: wrap-reverse;
+                    }
+                }
+            }
+        }
+        .section6{
+            .container{
+                .section_cards{
+                   flex-direction: column;
+                   margin-top: 25px;
+                   gap: 40px;
+                   img{
+                    width: 50%;
+                   }
+                   .section_centr{
+                    width: 50%;
+                   }
+                }
+            }
+        }
+    }
+    footer{
+        .container{
+            .footer_top{
+                padding-top: 50px;
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+@media(max-width:550px){
+    header{
+        .container{
+            .navbar{
+             display: flex;
+             gap: 10px;
+                .navbar_left{
+                    display: flex;
+                    gap: 10px;
+                    a{
+                        font-size: 10px;
+                    }
+                }
+
+         img{
+                width: 10%;
+            }
+                .navbar_right{
+                    display: flex;
+                    gap: 10px;
+                    a{
+                        font-size: 10px;
+                    }
+                    .nav_nol{
+                        width: 25px;
+                        height: 25px;
+                        font-style: 11px;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .section1{
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            
+            .container{
+                .section_text{
+                    h1{
+                        font-size: 25px;
+                    }
+                    button{
+                        width: 170px;
+                        height: 50px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        .section3{
+            .container{
+                .section3_cards{
+                    flex-direction: column;
+                    .card_title{
+                        font-size: 80%;
+                      text-align: center;
+                    }
+                    .card_text{
+                       width: 200px;
+                    }
+                }
+            }
+        }
+
+        .section4{
+            .container{
+                .section4_title{
+                    h1{
+                        font-size: 20px;
+                    }
+                    .dumalo{
+                        width: 80%;
+                    }
+                }
+            }
+        }
+
+        .section5{
+            .container{
+                .from{
+                    .from_title{
+                        h1{
+                            font-size: 22px;
+                            width: 300px;
+                            margin: 0 auto;
+                        }
+                        p{
+                            width: 340px;
+                            margin: 0 auto;
+                        }
+                    }
+                    .cards{
+                        flex-wrap: wrap-reverse;
+                    }
+                }
+            }
+        }
+        .section6{
+            .container{
+                .section_cards{
+                   flex-direction: column;
+                   margin-top: 25px;
+                   gap: 40px;
+                   img{
+                    width: 50%;
+                   }
+                   .section_centr{
+                    width: 50%;
+                   }
+                }
+            }
+        }
+    }
+    footer{
+        .container{
+            .footer_top{
+                padding-top: 50px;
+                flex-direction: column;
+                .footer_left{
+                    width: 90%;
+                    form{
+                        width: 360px;
+                        input{
+                            width: 250px;
+                        }
                     }
                 }
             }
